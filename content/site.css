@@ -1,0 +1,92 @@
+/* ProAtiva Cores: verde - 80b2a7 bege - c7c8a2 inner shadow - 34% glow - 19 */
+body {
+  margin:0;
+  padding: 0;
+  padding-top: 10%;
+  background-image: url('images/fundo.png'); background-repeat: repeat-y repeat-x;
+}
+
+img.img100 {
+	max-width: 100%;
+}
+
+img.img80{
+	max-width: 80%;
+}
+
+#fundo {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 600px;
+  opacity: 0.85;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  background: #80b2a7;
+  background: -webkit-radial-gradient(60% 55%, closest-side, #c7c8a2, #80b2a7);
+  background: -o-radial-gradient(60% 55%, closest-side, #c7c8a2, #80b2a7);
+  background: -moz-radial-gradient(60% 55%, closest-side, #c7c8a2, #80b2a7);
+  background: radial-gradient(closest-side at 60% 55%, #c7c8a2, #80b2a7);
+  -moz-box-shadow:    inset 0 0 300px #000000;
+  -webkit-box-shadow: inset 0 0 300px #000000;
+  box-shadow:         inset 0 0 300px #000000;
+}
+
+#fundoWings {
+	position: absolute;
+    width: 100%;
+    z-index: -90;
+    opacity: 0.1
+}
+
+.content {
+	text-align: center;
+	width: 100%;
+}
+
+#nome {
+	min-height: 200px;
+	border-right: 5px solid #ccc;
+	padding-right: 10px;
+}
+
+#nome span {
+	padding-right: 10px;
+}
+
+.cartao {
+	min-height: 200px;
+}
+
+.cnt-50 {
+	width: 50%;
+}
+
+.cnt-45 {
+	width: 45%;
+}
+
+.left { 
+	float: left; 
+	text-align: right;
+}
+
+.right { 
+	float: right;
+	text-align: left; 
+	padding-top: 20px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.dados{
+	color: #606060;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
