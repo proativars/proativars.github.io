@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{A514804B-EAE3-41BD-A62D-AD36F1255DA5}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="index.html" />
+    <None Include="content\site.css" />
+    <None Include="content\images\fundo.png" />
+    <None Include="content\jquery.js" />
+    <None Include="content\site.js" />
+    <None Include="CNAME" />
+    <None Include="README.md" />
+    <None Include="content\images\EduardoLaux.png" />
+    <None Include="content\images\fundo_transp.png" />
+    <None Include="content\images\orientacao.png" />
+    <None Include="content\images\proAtiva.png" />
+    <None Include="content\images\treinamento.png" />
+    <None Include="content\images\wings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="content\" />
+    <Folder Include="content\images\" />
+  </ItemGroup>
+</Project>
